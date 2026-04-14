@@ -6,7 +6,8 @@ interface SquareProps {
 
 export default function Square({bgColor}: SquareProps) {
     return (
-        <div id="square" className={`w-30 ${bgColor} h-30`}></div>
+        <div className={`square ${bgColor} w-30 h-30 m-4`}></div>
+        
     )
 }
 
