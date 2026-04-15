@@ -15,7 +15,7 @@ export default function Sidebar({ isOpen }: SidebarProps) {
             <ul className="flex flex-col gap-4">
                 <li className="cursor-pointer hover:text-sky-400 transition-colors py-2 border-b border-[#333]">Home</li>
                 <li className="cursor-pointer hover:text-sky-400 transition-colors py-2 border-b border-[#333]">About</li>
-                <li className="cursor-pointer hover:text-sky-400 transition-colors py-2 border-b border-[#333]">Contact</li>
+                <li className="cursor-pointer hover:text-sky-400 transition-colors py-2 border-[#333]">Contact</li>
             </ul>
         </aside>
     )
